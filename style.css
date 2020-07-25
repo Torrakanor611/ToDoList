@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgb(253, 255, 113), rgb(247, 55, 55));
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 400;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+}
+
+h1{
+    font-family: 'Ranchers', cursive;
+    font-size: 8em;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    padding-bottom: 3em;
+    /* background-color: cyan; */
+}
+
+.todo-button{
+    padding: 5px;
+    font-size: larger;
+}
+
+.todo-button:hover{
+    background-color:  rgb(252, 188, 93);
+    color: white;
+}
+
+.check-button:hover{
+    background-color: rgb(0, 200, 0);
+    color: white;
+}
+
+.remove-button:hover{
+    background-color: rgb(200, 0, 0);
+    color: white;
+}
+
+button{
+    margin-left: 5px;
+    padding: 2px;
+    border-radius: 4px;
+    transition: background-color 0.5s ease;
+}
+
+.left-button{
+    margin-left: 15px;
+}
+
+input{
+    padding: 5px;
+    font-size: large;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: larger;
+}
+
+ion-icon{
+    font-size: 20px;
+    pointer-events: none;
+}
+
+/* .check-button::hover{
+    background-color: rgb(81, 207, 22);
+} */
+
+.list-todo{
+    display: flex;
+    flex-direction: column; 
+}
+
+.todo-item{
+    display: flex;
+    min-width: 30em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo{
+    flex: 1;
+}
+
+.checked{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
