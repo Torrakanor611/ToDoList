@@ -1,3 +1,4 @@
 
 -> diferenciar as tarefas entre checked e por fazer
 -> suporte para telemóvel
+-> problema do max-width
