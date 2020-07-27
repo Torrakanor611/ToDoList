@@ -1,2 +1,3 @@
--> transição bonita quando as tarefas é apagado
+
 -> diferenciar as tarefas entre checked e por fazer
+-> suporte para telemóvel
