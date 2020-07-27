@@ -59,8 +59,15 @@ function removeTodo(event){
         //console.log(item.parentElement);
         // console.log(todo);
         // console.log(todo.value);
+        // animation
+        todo.classList.remove(".check-button:hover");
+        todo.classList.remove(".remove-button:hover");
+        todo.classList.add("remove");
         removeFromLocal(todo.innerText);
-        todo.remove();
+
+        todo.addEventListener("transitionend", function() {
+            todo.remove();
+        })
 
     }else if(item.classList[0] === "check-button"){
         const todo = item.parentElement;

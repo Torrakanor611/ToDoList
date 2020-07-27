@@ -110,3 +110,8 @@ ion-icon{
     text-decoration: line-through;
     opacity: 0.5;
 }
+
+.remove{
+    transform: scale(0.6);
+    transition: all 0.4s ease;
+}
